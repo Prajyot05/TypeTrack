@@ -9,7 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <ThemeContextProvider>
     <TestModeContextProvider>
-      <BrowserRouter basename="/TypeTrack">
+      <BrowserRouter>
         <App />
       </BrowserRouter>
     </TestModeContextProvider>
