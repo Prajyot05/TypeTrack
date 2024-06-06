@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='header'>
       <div className="logo hoverable">
-        <img src="src/assets/TypeTrack_transparent.png" alt="" onClick={handleImgClick}/>
+        <img src="/TypeTrack_transparent.png" alt="" onClick={handleImgClick}/>
       </div>
       <div className="user-logo hoverable">
         <Account />

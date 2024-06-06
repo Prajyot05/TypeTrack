@@ -22,8 +22,6 @@ const firebaseConfig = {
 //     measurementId: process.env.VITE_MEASUREMENT_ID
 // };
 
-console.log(firebaseConfig);
-
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 // const auth = firebase.auth();
